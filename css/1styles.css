@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    text-align: justify;
+    color: black;
+    text-align: center;
+    border: black
+}
+img {
+    top: 114px;
+    width: 1000px;
+    height: 640px;
+}
+.playerimages{
+    z-index: -1;
+}
+.common{
+    position: absolute;
+    background-color: rgb(67, 37, 91);
+    font-size: large;
+    z-index: 3;
+}
+
+nav{
+    z-index: 3;
+}
+.header{
+    text-align: center;
+    top: 1px;
+    left: 2px;
+    right: 2px;
+    font-size: x-large;
+    font-family: sans-serif;
+    height: 100px;
+    color: rgb(209, 136, 0)
+}
+.mainbody{
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    color: rgb(209, 136, 0);
+    text-align: center;
+}
+.smallerfont{
+    font-size: x-large;
+    color: rgb(67, 37, 91);
+    background-color: orange;
+}
+.rightmenu{
+    top: 114px;
+    right: 5px;
+    width: 175px;
+    bottom: 39px;
+    text-align: center;
+    background-color: rgb(209, 136, 0);
+    position: fixed;
+    z-index: 3;
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    text-align: left;
+    background-color:rgb(209, 136, 0) ;
+    color: rgb(209, 136, 0);
+    z-index: -1;
+   
+}
+
+.roster{
+    background-color: orange;
+    
+   
+}
+.tableauPlaceholder{
+    width: 850px;
+   right: 175px;
+}
